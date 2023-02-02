@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Robot:wght@100;300;400;500;700;900&display=swap");
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background: #fff !important;
+    font-family: "Roboto", sans-serif;
+}
+h1,h2{
+    color:#14141f;
+    font-weight: 300;
+    font-size: 2rem;
+}
+p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #14141f;
+    opacity: 85%;
+    line-height: 35px;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+a:hover{
+    color: unset;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+section,
+footer{
+    padding: 60px 0px;
+
+}
+/* /*=================Custom Scroll Bar================/* */
+::-Webkit-scrollbar{
+    width: 10px;
+    background: #343444;
+}
+::-webkit-scrollbar-thumb{
+    border-radius:2rem;
+    background: linear-gradient(-45deg,#E250E5,#4B50E6,#E250E5,#4B50E6);
+}

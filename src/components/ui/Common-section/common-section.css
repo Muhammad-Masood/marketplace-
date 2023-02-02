@@ -1,0 +1,10 @@
+.comman-section{
+    background: url('../../../assets/images/img_bg_page_title.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+.comman-section h2{
+ color: #fff;
+}

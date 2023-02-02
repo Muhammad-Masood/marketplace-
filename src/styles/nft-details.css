@@ -1,0 +1,93 @@
+.single_nft-img{
+    border-radius: 8px;
+}
+.single_nft-seen  i{
+    color: #fff;
+    padding: 5px;
+    background: #000;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.single_nft-seen span{
+    color: #000;
+    font-size: 0.8rem;
+}
+.single_nft-more span i {
+    background: #343444;
+    padding: 5px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50px;
+}
+.nft_creator{
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 7px;
+    width: 50%;
+}
+.creator_img{
+    width:40px;
+    height: 40px;
+}
+.creator_detail p{
+    font: 0.7rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.creator_detail h6{
+color: black;
+margin-bottom: 0;
+font-size: .9rem;
+font-weight: 500;
+}
+.singleNft-btn{
+    padding: 8px 25px;
+    background: #5142FC;
+    border: none;
+    outline: none;
+    border-radius:50px ;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.singleNft-btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.singleNft-btn:hover {
+    background: #fff;
+    box-shadow: 3px 3px 4px -3px #E250E5 ;
+}
+.singleNft-btn:hover a{
+    color: #5142FC;
+}
+.singleNft-btn i{
+    color: #fff;
+}
+.singleNft-btn:hover i {
+    color: #5142FC;
+}
+
+@media only screen and (max-width:992px) {
+    .single_nft_content h2{
+        font-size: 1.3rem;
+    }
+    .single_nft_content p{
+        font-size: 0.8rem;
+        line-height: 28px;
+    }
+    .nft_creator{
+        width: 100%;
+    }
+    .singleNft-btn a{
+        font-size: 0.7rem;
+    }
+}
+@media only screen and (max-width:576px){
+.single_nft_content h2{
+    margin-top: 15px;
+}
+}
