@@ -43,7 +43,7 @@ const PreviewCard = ({inputs, image}) => {
           </div>
           <div >
               <h6>Current Bid</h6>
-              <p>{formatEther(price || 0)} Eth</p>
+              <p>{price} Matic</p>
           </div>
       </div>
   </div>

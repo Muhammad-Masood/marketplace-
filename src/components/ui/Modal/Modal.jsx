@@ -13,7 +13,7 @@ const Model = ({name, price, purchaseItem, setshowModal}) => {
         <h2 className='text-center text-dark'>Place a Bid</h2>
         <p className='text-center text-dark'>You must bid at least. <span>{price} Eth</span></p>
         <div className="input_item mb-4">
-            <input type="number" placeholder='00 : 00 Eth' />
+            <input type="number" placeholder='00 : 00 Matic' />
         </div>
         
         <div className="input_item mb-3">

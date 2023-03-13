@@ -14,11 +14,11 @@ const LiveAuction = () => {
             <Container>
                 <Row>
                     <Col lg='12' className='mb-5'>
-                        <div className="live_auction_top asd d-flex align-items-center justify-content-between">
-                            <span><Link to='/market'>Explore more</Link></span>
-                        </div>
+                        {/* <div className="live_auction_top asd d-flex align-items-center justify-content-between">
+                            <span><b><Link to='/market'>Explore more...</Link></b></span>
+                        </div> */}
                     </Col>
-                    {fetchedNfts?.length < 1 && "Loading.." }
+                    {fetchedNfts?.length < 1 && "No Nft To Purchase!" }
                     {
                         fetchedNfts?.slice(0, 4).map((item) => (
                             <Col lg='3' md='4' sm='6' className='mb-4 bn'>

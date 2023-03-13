@@ -103,8 +103,6 @@ const Footer = () => {
             </ListGroup>
           </Col>
           <Col lg='3' md='6' sm='6' className='mb-4' >
-            <h5>Newsletter</h5>
-            <input type="text" className="newsletter" placeholder='Email'/>
             <div className="social_links d-flex gap-3 align-items-center">
               <span>
                 <Link to='#'><i class="ri-facebook-line"></i></Link>

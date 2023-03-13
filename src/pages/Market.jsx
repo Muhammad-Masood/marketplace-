@@ -17,17 +17,9 @@ const Market = () => {
   }
   const handleSort =(e)=>{
     const filterValue = e.target.value
-    if(filterValue === 'high'){
-      const filterData = NFT__DATA.filter(item => item.currentBid > 6)
-    setData(filterData)
-    }
-    if(filterValue === 'mid'){
-      const filterData = NFT__DATA.filter(item => item.currentBid > 5.50 && item.currentBid < 6)
-      setData(filterData)
-    }
-    if(filterValue === 'high'){
-      const filterData = NFT__DATA.filter(item => item.currentBid > 4.89 && item.currentBid < 5.58)
-    setData(filterData)
+    if(filterValue === 'Newest Entries'){
+      const filterData = NFT__DATA.sort((a, b) => new Date(b.date) - new Date(a.date));
+      setData(filterData);
     }
   }
   return <>
@@ -60,13 +52,12 @@ const Market = () => {
               <div className="filter_right">
                 <select onChange={handleSort}>
                   <option>Sort By</option>
-                  <option value="high">High Rate</option>
-                  <option value="mid">Mid Rate</option>
+                  <option value="Newest Entries">Newest Entries</option>
                 </select>
               </div>
             </div>
           </Col>
-          {fetchedNfts?.length < 1 && "Loading.." }
+          {fetchedNfts?.length < 1 && "No Nft To Purchase!" }
           {
             
             fetchedNfts?.map((item) => (

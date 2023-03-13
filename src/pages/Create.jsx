@@ -167,7 +167,7 @@ const Create = () => {
                 </div>
                 <div className="form-input">
                   <label htmlF=''>Price</label>
-                  <input onChange={handleOnChange} type="number" name="price"  placeholder="Enter price for one item (Eth)" />
+                  <input onChange={handleOnChange} type="text" name="price"  placeholder="Enter price for one item (Matic)" />
                 </div>
                 {/* <div className="form-input">
                   <label htmlF=''>Minimum Bid</label>
