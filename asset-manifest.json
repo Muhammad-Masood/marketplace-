@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/marketplace-/static/css/main.25f9e013.chunk.css",
+    "main.js": "/marketplace-/static/js/main.f1bce896.chunk.js",
+    "main.js.map": "/marketplace-/static/js/main.f1bce896.chunk.js.map",
+    "runtime-main.js": "/marketplace-/static/js/runtime-main.2f7c8a97.js",
+    "runtime-main.js.map": "/marketplace-/static/js/runtime-main.2f7c8a97.js.map",
+    "static/css/2.1e02db26.chunk.css": "/marketplace-/static/css/2.1e02db26.chunk.css",
+    "static/js/2.9c2b3233.chunk.js": "/marketplace-/static/js/2.9c2b3233.chunk.js",
+    "static/js/2.9c2b3233.chunk.js.map": "/marketplace-/static/js/2.9c2b3233.chunk.js.map",
+    "index.html": "/marketplace-/index.html",
+    "static/css/2.1e02db26.chunk.css.map": "/marketplace-/static/css/2.1e02db26.chunk.css.map",
+    "static/css/main.25f9e013.chunk.css.map": "/marketplace-/static/css/main.25f9e013.chunk.css.map",
+    "static/js/2.9c2b3233.chunk.js.LICENSE.txt": "/marketplace-/static/js/2.9c2b3233.chunk.js.LICENSE.txt",
+    "static/media/ava-01.53d4b552.png": "/marketplace-/static/media/ava-01.53d4b552.png",
+    "static/media/ava-02.fe1546a1.png": "/marketplace-/static/media/ava-02.fe1546a1.png",
+    "static/media/ava-03.d5247c0b.png": "/marketplace-/static/media/ava-03.d5247c0b.png",
+    "static/media/ava-04.37c3b659.png": "/marketplace-/static/media/ava-04.37c3b659.png",
+    "static/media/ava-05.53bccd00.png": "/marketplace-/static/media/ava-05.53bccd00.png",
+    "static/media/ava-06.2cdc54a3.png": "/marketplace-/static/media/ava-06.2cdc54a3.png",
+    "static/media/img-01.08f9fcfa.jpg": "/marketplace-/static/media/img-01.08f9fcfa.jpg",
+    "static/media/img-02.bc52940c.jpg": "/marketplace-/static/media/img-02.bc52940c.jpg",
+    "static/media/img-03.1af6fd6b.jpg": "/marketplace-/static/media/img-03.1af6fd6b.jpg",
+    "static/media/img-04.308d507c.jpg": "/marketplace-/static/media/img-04.308d507c.jpg",
+    "static/media/img-05.ac88d200.jpg": "/marketplace-/static/media/img-05.ac88d200.jpg",
+    "static/media/img-06.896c4938.jpg": "/marketplace-/static/media/img-06.896c4938.jpg",
+    "static/media/img-07.8969cb71.jpg": "/marketplace-/static/media/img-07.8969cb71.jpg",
+    "static/media/img-08.337eb98f.jpg": "/marketplace-/static/media/img-08.337eb98f.jpg",
+    "static/media/img-09.1ce5d3d3.jpg": "/marketplace-/static/media/img-09.1ce5d3d3.jpg",
+    "static/media/common-section.css": "/marketplace-/static/media/img_bg_page_title.7e78e49d.jpg",
+    "static/media/remixicon.css": "/marketplace-/static/media/remixicon.f2616f59.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f7c8a97.js",
+    "static/css/2.1e02db26.chunk.css",
+    "static/js/2.9c2b3233.chunk.js",
+    "static/css/main.25f9e013.chunk.css",
+    "static/js/main.f1bce896.chunk.js"
+  ]
+}
